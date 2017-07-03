@@ -1,0 +1,16 @@
+.logo, nav, #webring {
+	display:none;
+}
+img {
+   max-width: 100% !important;
+}
+BODY  {
+	margin: 1cm; 
+	font-family: "Verdana", Arial, Helvetica, Geneva, sans-serif;
+	text-align: justify;
+}
+@page {
+  @bottom-center {
+    content: counter(page) " von " counter(pages);
+  }
+}
